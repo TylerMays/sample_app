@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
+  
   root 'static_pages#home'
+
+  get 'signup' => 'users#new'
 
   %w( help about contact ).each do |page|
     get page => 'static_pages#'+page
