@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     get page => 'static_pages#'+page
   end
 
+  resources :users
+  
   # get 'help'    => 'static_pages#help'
   # get 'about'   => 'static_pages#about'
   # get 'contact' => 'static_pages#contact'
