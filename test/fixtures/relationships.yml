@@ -1,0 +1,15 @@
+one:
+  follower: michael
+  followed: john
+
+two:
+  follower: michael
+  followed: adiel
+
+three:
+  follower: john
+  followed: michael
+
+four:
+  follower: dave
+  followed: michael
